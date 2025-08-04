@@ -29,7 +29,7 @@ const LoginPage = () => {
         initial={{ opacity: 0, y: -40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        src={assets.logo_big}
+        src={"/baby.jpg"}
         className="w-40 sm:w-48 md:w-56"
       />
 
@@ -47,7 +47,7 @@ const LoginPage = () => {
             <motion.img
               whileTap={{ scale: 0.9 }}
               onClick={() => setIsDataSubmitted(false)}
-              src={"/baby.jpg"}
+              src={assets.arrow_icon}
               className="w-5 cursor-pointer hover:rotate-180 transition-transform duration-300"
             />
           )}
