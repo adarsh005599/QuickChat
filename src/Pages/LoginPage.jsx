@@ -47,7 +47,7 @@ const LoginPage = () => {
             <motion.img
               whileTap={{ scale: 0.9 }}
               onClick={() => setIsDataSubmitted(false)}
-              src={assets.arrow_icon}
+              src={"/baby.jpg"}
               className="w-5 cursor-pointer hover:rotate-180 transition-transform duration-300"
             />
           )}
