@@ -177,7 +177,7 @@ const ChatContainer = () => {
                 ))}
               </div>
               <div className="text-center text-xs text-gray-400">
-                <img src={assets.profile_martin} className="w-7 rounded-full" />
+                <img src={authuser.profilePic} className="w-7 rounded-full" />
                 <p className="text-gray-500">typing...</p>
               </div>
             </motion.div>
